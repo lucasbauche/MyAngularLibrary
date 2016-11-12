@@ -1,27 +1,22 @@
 {
-  "name": "@lucasbauche/myLibrary",
+  "name": "My Angular Library",
   "version": "0.1.11",
-  "description": "My Library",
+  "description": "My Angular Library sample project",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "watch": "tsc -p src -w",
-    "build": "rm -rf lib && tsc -p src",
-    "build.gulp": "gulp build",
-    "build.sass": "gulp sass",
-    "build.test": "gulp build2"
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/lucasbauche/MyAngularLibrary.git"
   },
   "keywords": [
     "Angular",
-    "Library",
-    "HQ"
+    "Library"
   ],
   "author": "l.bauche@hqlabs.com",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "homepage": "https://www.helloHQ.io",
   "dependencies": {},
   "devDependencies": {
