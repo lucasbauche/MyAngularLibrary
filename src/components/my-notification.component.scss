@@ -1,0 +1,16 @@
+
+.notification{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    background: #ec3761;
+    padding: 20px;
+    font-family: Arial;
+    color: #fff;
+
+  &>div{
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom:10px;
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "@lucasbauche/myLibrary",
+  "version": "0.1.11",
+  "description": "My Library",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "watch": "tsc -p src -w",
+    "build": "rm -rf lib && tsc -p src",
+    "build.gulp": "gulp build",
+    "build.sass": "gulp sass",
+    "build.test": "gulp build2"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Angular",
+    "Library",
+    "HQ"
+  ],
+  "author": "l.bauche@hqlabs.com",
+  "license": "UNLICENSED",
+  "homepage": "https://www.helloHQ.io",
+  "dependencies": {},
+  "devDependencies": {
+    "@angular/common": "~2.0.2",
+    "@angular/compiler": "~2.0.2",
+    "@angular/core": "~2.0.2",
+    "@angular/forms": "~2.0.2",
+    "@angular/http": "~2.0.2",
+    "@angular/platform-browser": "~2.0.2",
+    "@angular/platform-browser-dynamic": "~2.0.2",
+    "@angular/router": "~3.0.2",
+    "@types/node": "^6.0.45",
+    "del": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-inline-ng2-template": "^4.0.0",
+    "gulp-install": "^0.6.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.1.1",
+    "gulp-typescript": "^3.0.2",
+    "gulp-typings": "^2.0.4",
+    "gulp-uglify": "^2.0.0",
+    "run-sequence": "^1.2.2",
+    "rxjs": "5.0.0-beta.12",
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0"
+  }
+}

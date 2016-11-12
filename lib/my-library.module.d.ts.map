@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["my-library.module.d.ts"],"sourcesContent":["export declare class MyLibrary {\n}\n"],"file":"my-library.module.d.ts"}

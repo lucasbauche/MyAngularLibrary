@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["index.d.ts"],"sourcesContent":["export * from './my-library.module';\nexport * from './components/my-notification.component';\n"],"file":"index.d.ts"}
